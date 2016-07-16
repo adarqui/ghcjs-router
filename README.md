@@ -1,6 +1,6 @@
 # ghcjs-router
 
-Separating react-flux's example router into it's own repo.
+Separating react-flux's example router into its own repo.
 
 ## special thanks
 
