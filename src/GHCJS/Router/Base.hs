@@ -52,7 +52,7 @@ getLocationHash = do
   rt <- liftM JSS.unpack js_getLocationHash
   pure $ case rt of
     "" -> Nothing
-    _ -> Just rt
+    _  -> Just rt
 
 onLocationHashChange :: (String -> IO ()) -> IO ()
 onLocationHashChange fn = do
